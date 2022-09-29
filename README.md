@@ -95,7 +95,8 @@ This very simple boxplot illustrates the differences between the lots:
 The next step is to conduct a t-test on the suspension coil data to determine whether there is a statistical difference between the mean of this provided sample dataset and a hypothesized, potential population dataset. Using the presumed **population mean of 1500**, we find the following:
 
 There is a summary of the t-test results across **all manufacturing lots**
-![d3](https://github.com/fouadmz/MechaCar_Statistical_Analysis/main/Resources/Dev 3 1S-Test 1.png)
+
+![d3](https://github.com/fouadZiaa/MechaCar_Statistical_Analysis/blob/c0381ceb9d39f8cdd80aae4d5631b77ab4bfe76d/Resources/Dev%203%201S-Test%201.png)
 
 From here we can see the **true mean of the sample is 1498.78**, which we also saw in the summary statistics above.  With a **p-Value of 0.06**, which is higher than the common significance level of 0.05, there is **NOT enough evidence to support rejecting the null hypothesis**.  That is to say, the mean of all three of these manufacturing lots is statistically similar to the presumed population mean of 1500. 
 
