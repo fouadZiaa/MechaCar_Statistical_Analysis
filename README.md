@@ -1,42 +1,24 @@
 # MechaCar Analysis - AutosRUs
 
 ## Overview of Project
-A few weeks after starting his new role, Jeremy is approached by upper management about a special project. AutosRUs’ newest prototype, the MechaCar, is suffering from production troubles that are blocking the manufacturing team’s progress. AutosRUs’ upper management has called on Jeremy and the data analytics team to review the production data for insights that may help the manufacturing team.
+Jeremy has been approached by upper management about a special project. AutosRUs’ newest prototype, the MechaCar, is suffering from production troubles that are blocking the manufacturing team’s progress. AutosRUs’ upper management has called on Jeremy and the data analytics team to review the production data for insights that may help the manufacturing team.
 
-In this challenge, you’ll help Jeremy and the data analytics team do the following:
+In this challenge, we will help Jeremy and the data analytics team do the following:
 
 * Perform multiple linear regression analysis to identify which variables in the dataset predict the mpg of MechaCar prototypes
 * Collect summary statistics on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots
 * Run t-tests to determine if the manufacturing lots are statistically different from the mean population
 * Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers. For each statistical analysis, you’ll write a summary interpretation of the findings.
 
-## Deliverables:
-This new assignment consists of three technical analysis deliverables and a proposal for further statistical study. You’ll submit the following:
-
-1. ***Deliverable 1:*** Linear Regression to Predict MPG
-2. ***Deliverable 2:*** Summary Statistics on Suspension Coils
-3. ***Deliverable 3:*** T-Test on Suspension Coils
-4. ***Deliverable 4:*** Design a Study Comparing the MechaCar to the Competition
-
-
-## Deliverables:
-
 
 # Deliverable 1:  
 ## Linear Regression to Predict MPG
-### Deliverable Requirements:
 
-The `MechaCar_mpg.csv` dataset contains mpg test results for 50 prototype MechaCars. The MechaCar prototypes were produced using multiple design specifications to identify ideal vehicle performance. Multiple metrics, such as vehicle length, vehicle weight, spoiler angle, drivetrain, and ground clearance, were collected for each vehicle. Using your knowledge of R, you’ll design a linear model that predicts the mpg of MechaCar prototypes using several variables from the `MechaCar_mpg.csv file`. 
-
-
-
-
-#### Results on Deliverable:
+#### Results:
 **Resulting Model:** 
 
 ### mpg =  (6.267)**vehicle_length** + (0.0012)**vehicle_weight** + (0.0688)**spoiler_angle** + (3.546)**ground_clearance** + (-3.411)**AWD** + (-104.0)
 				
-INSERT LINEAR REGRESSION SUMMARY PIC
 **Statistical Summary:** 
 ![d1](https://github.com/fouadZiaa/MechaCar_Statistical_Analysis/blob/ef14177178c2ab0116b83de6290ec61c69f6d010/Resources/Linear%20Regression%20Summary.png)
 
@@ -57,12 +39,6 @@ If we remove the less impactful independent variables (vehicle weight, spoiler a
 
 # Deliverable 2:  
 ## Summary Statistics on Suspension Coils
-### Deliverable Requirements:
-
-The MechaCar Suspension_Coil.csv dataset contains the results from multiple production lots. In this dataset, the weight capacities of multiple suspension coils were tested to determine if the manufacturing process is consistent across production lots. Using your knowledge of R, you’ll create a summary statistics table to show:
-
-- The suspension coil’s PSI continuous variable across all manufacturing lots
-- The following PSI metrics for each lot: mean, median, variance, and standard deviation.
 
 #### Technical Analysis
 
@@ -91,8 +67,6 @@ This very simple boxplot illustrates the differences between the lots:
 # Deliverable 3:  
 ## t-Tests on Suspension Coils
 
-
-The next step is to conduct a t-test on the suspension coil data to determine whether there is a statistical difference between the mean of this provided sample dataset and a hypothesized, potential population dataset. Using the presumed **population mean of 1500**, we find the following:
 
 There is a summary of the t-test results across **all manufacturing lots**
 
